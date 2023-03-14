@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="clientes/listClientes.html" method="get">
+        <label for="nombre">Nombre:</label>
+        <br>
+        <input type="text" name="nombre" id="nombre" required>
+
+        <br>
+        <label for="apellido">Apellido:</label>
+        <br>
+        <input type="text" name="apellido " id="apellido" required>
+
+        <div>
+            <label for="user">Usuario</label>
+            <input type="email" name="mail" id="mail" required >
+            <br>
+            <label for="pass">Contraseña:</label>
+            <input type="password" name="pass" id="pass" required>
+        </div>
+
+        <div>
+            <label for="fechaNac">fecha nacimiento</label>
+            <input type="date" name="fechaNac" id="fechaNac">
+        </div>
+
+        <!-- no usar br, luego utilizaremos css con margin -->
+        <br><br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
