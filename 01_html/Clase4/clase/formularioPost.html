@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h4>Formulario de registración</h4>
+
+    <form action="https://formspree.io/f/xyyapakw" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre">
+        
+        <div style="background-color: red;">
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido">
+        </div>
+
+        <div>
+            <label for="user">Usuario:</label>
+            <input type="email" name="user" id="user" required>
+    
+        </div>
+
+        <div>
+            <label for="pass">Contraseña:</label>
+            <input type="password" name="pass" id="pass">
+        </div>
+
+        <div>
+            <label for="fechaNac">Fecha Nacimiento:</label>
+            <input type="date" name="fechaNac" id="fechaNac">
+        </div>
+
+        <div>
+            <label for="foto">Foto Perfil:</label>
+            <input type="file" name="foto" id="foto">
+        </div>
+
+        <div>
+            <textarea name="obs" id="obs" cols="30" rows="10"></textarea>
+        </div>
+
+        <div>
+            <label for="prov">provincia</label>
+            <select name="prov" id="">
+                <option value="1">Mendoza</option>
+                <option value="2">San Juan</option>
+                <option value="3">Prov3</option>
+                <option value="4">Prov4</option>
+                <option value="5">Prov5</option>
+            </select>
+
+        </div>
+
+        <div>
+            <label for="mes">Seleccione mes que desea viajar</label>
+            <!-- input[type="radio" name="mes" value="$"]{Mes$}*12 -->
+
+            <br>
+            <input type="radio" name="mes" value="1">Mes1</input>
+            <br>
+            <input type="radio" name="mes" value="2">Mes2</input>
+            <br>
+            <input type="radio" name="mes" value="3">Mes3</input>
+            <br>
+            <input type="radio" name="mes" value="4">Mes4</input><input type="radio" name="mes" value="5">Mes5</input><input type="radio" name="mes" value="6">Mes6</input><input type="radio" name="mes" value="7">Mes7</input><input type="radio" name="mes" value="8">Mes8</input><input type="radio" name="mes" value="9">Mes9</input><input type="radio" name="mes" value="10">Mes10</input><input type="radio" name="mes" value="11">Mes11</input><input type="radio" name="mes" value="12">Mes12</input>
+        </div>
+
+        <div>
+            <label for="mascota">Mascota</label>
+            <br>
+            <input type="checkbox" name="" value="1">Perro
+            <br>
+            <input type="checkbox" name="" value="2">Gato</input>
+            <br>
+            <input type="checkbox" name="" value="3">Vibora</input>
+        </div>
+
+        <div>
+            <input type="reset" value="LImpiar">
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
+    
+</body>
+</html>
