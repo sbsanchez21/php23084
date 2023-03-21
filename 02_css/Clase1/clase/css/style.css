@@ -1,0 +1,13 @@
+.titulo {
+    font-size: 2rem;
+    color: blue;
+}
+
+.texto {
+    font-size: 1.5rem;
+    color: lightcoral;
+}
+
+li {
+    background-color: red;
+}

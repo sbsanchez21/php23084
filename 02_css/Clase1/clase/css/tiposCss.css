@@ -1,0 +1,50 @@
+div {
+    text-align: center;
+    background-color: burlywood;
+}
+
+ul {
+    color: blue;
+}
+
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* selector de etiqueta */
+/* para todas las etiquetas del mismo tipo coloca un style */
+p {
+    text-align: right;
+}
+
+a {
+    background-color: red;
+    padding: 1rem;
+}
+
+table {
+    text-align: center;
+    width: 50%;
+    margin: 1rem;
+    background-color: cornflowerblue;
+    padding: 1rem;
+}
+
+/* selector de clases */
+.titulo {
+    font-size: 2rem;
+    background-color:chartreuse;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.texto {
+    font-size: 1.2rem;
+    text-align: left;
+    background-color: lightgray;
+    border-radius: 20px;
+    padding: 1rem;
+}
