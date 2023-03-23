@@ -1,0 +1,60 @@
+/* * {
+    margin: 0;
+} */
+
+.encabezado {
+    text-align: right;
+    /* background-color: red; */
+    margin:1rem
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(40, 40, 40, 0.87);
+
+}
+
+a {
+    text-decoration: none;
+    color: rgba(40, 40, 40, 0.87);
+    margin-left: .4rem;
+    margin-right: .4rem;
+    font-size: .8rem;
+}
+
+.imgPerfil {
+    width: 35px;
+    height: 35px;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.formulario {
+    text-align: center;
+}
+
+.formulario > form > input {
+    margin-bottom: 2rem;
+}
+
+.inputBusqueda {
+    width: 50%;
+    border: 1px solid lightgray;
+    height: 40px;
+    border-radius: 30px;
+}
+
+.btnBusqueda {
+    border: 0;
+    /* padding: .5rem 1rem .5rem 1rem; */
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    border-radius: 5px;
+    
+    
+}

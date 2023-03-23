@@ -1,0 +1,79 @@
+div {
+    text-align: center;
+    background-color: burlywood;
+    padding: 1rem;
+}
+
+ul {
+    color: blue;
+}
+
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* selector de etiqueta */
+/* para todas las etiquetas del mismo tipo coloca un style */
+p {
+    text-align: right;
+    background-color: blueviolet!important;
+}
+
+a {
+    background-color: red;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    text-align: center;
+    width: 50%;
+    margin: 1rem;
+    background-color: cornflowerblue;
+    padding: 1rem;
+}
+
+/* selector de clases */
+.titulo {
+    font-size: 2rem;
+    background-color:chartreuse;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.subtitulo {
+    font-size: 1.4rem;
+    background-color:chartreuse;
+    text-align: center;
+    border-radius: 30px;
+    margin: 1rem;
+    padding: 1rem;
+
+}
+
+.texto {
+    font-size: 1.2rem;
+    text-align: left;
+    padding: 1rem;
+}
+
+.tablaExtensa {
+    text-align: center;
+    width: 100%;
+    margin: 1rem;
+    background-color: lightblue;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.tablaReducida {
+    text-align: center;
+    width: 50%;
+    margin: 1rem;
+    background-color: lightcoral;
+    padding: 1rem;
+    font-size: 1rem;
+}

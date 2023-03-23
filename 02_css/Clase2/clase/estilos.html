@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <style>
+        p {
+            /* important igual prioridad externo, head inline */
+            background-color: aquamarine!important; 
+        }
+
+        /* p {
+            background-color: aqua;
+            text-align: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        a {
+            background-color: red;
+        } */
+    </style>
+</head>
+
+
+<body>
+    <!-- html sin style -->
+    <p align="center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore, reiciendis!</p>
+
+    <!-- html style inline -->
+    <h1 style="color: lightblue; background-color: lightcoral; text-align: center; padding: 1rem;">hola estilos</h1>
+    <a href="#" style="margin: 1rem;">Link a Google</a>
+    <a href="#" style="margin: 1rem;">Link a Facebook</a>
+
+    <!-- html style en head -->
+    <p>párrafo toma el color de fondo del style en head</p>
+    <p>párrafo toma el color de fondo del style en head</p>
+    <p>párrafo toma el color de fondo del style en head</p>
+    <a href="">toma el color de fondo del style en head</a>
+
+    <!-- html con archivo externo -->
+    <!-- la manera más utilizada porque separa el html del css -->
+    <div >ddddddddddddddddddddddddd.</div>
+    <ul>
+        <li>hol</li>
+        <li>hol</li>
+        <li>hol</li>
+        <li>hol</li>
+    </ul>
+
+
+    <!-- herencia y sobreescritura de stylos -->
+    <!-- style externo, style head, style inline -->
+    <!-- div hereda la fuente del body pero la sobreescribe -->
+    <div style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Lorem ipsum dolor sit amet.</div>
+    <!-- div hereda del style y sobrescribe el color de fondo -->
+    <div style="background-color: blue;">fondo cambiado</div>
+    <p style="background-color: aliceblue;">oooooooooooooooo</p>
+
+
+    <!-- los div y span con styles -->
+    <div style="background-color: blue;">
+        <h5>titulo</h5>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit <span style="color: red;">amet</span>  consectetur, adipisicing elit. Animi, architecto cumque error impedit soluta id?</p>
+    </div>
+
+    <!-- presentación -->
+    <div style="background-color: lightcyan;" >
+        <div>Titulo</div>
+        <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga, eius.</div>
+    </div>
+
+    <!-- noticias -->
+    <div style="font-size: 1rem;">
+        <div>titulo noticia</div>
+        <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, voluptatibus.</div>
+    </div>
+
+    <!-- selectores -->
+    <!-- selectores de etiqueta -->
+    <a href="">link</a>
+
+    <table>
+        <tr>
+            <td>Alumnos 01</td>
+            <td>Alumnos 02</td>
+            <td>Alumnos 03</td>
+        </tr>
+        <tr>
+            <td>Alumnos 01</td>
+            <td>Alumnos 02</td>
+            <td>Alumnos 03</td>
+        </tr>
+        <tr>
+            <td>Alumnos 01</td>
+            <td>Alumnos 02</td>
+            <td>Alumnos 03</td>
+        </tr>
+        <tr>
+            <td>Alumnos 01</td>
+            <td>Alumnos 02</td>
+            <td>Alumnos 03</td>
+        </tr>
+        <tr>
+            <td>Alumnos 01</td>
+            <td>Alumnos 02</td>
+            <td>Alumnos 03</td>
+        </tr>
+        <tr>
+            <td>Alumnos 01</td>
+            <td>Alumnos 02</td>
+            <td>Alumnos 03</td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <td>01</td>
+            <td>02</td>
+            <td>03</td>
+            <td>04</td>
+        </tr>
+        <tr>
+            <td>01</td>
+            <td>02</td>
+            <td>03</td>
+            <td>04</td>
+        </tr>
+        <tr>
+            <td>01</td>
+            <td>02</td>
+            <td>03</td>
+            <td>04</td>
+        </tr>
+    </table>
+
+    <!-- selector de lcases -->
+    <div class="titulo">
+        Bienvenidos a mi página
+    </div>
+
+    <div class="subtitulo">
+        Esta es mi página de inicio
+    </div>
+
+    <div class="texto">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio excepturi, expedita sequi sint maxime dicta. Velit quia aperiam ab quos.
+    </div>
+
+    <a href="" class="subtitulo">link subtitulo</a>
+    
+
+    <p class="titulo">Lorem ipsum dolor sit amet.</p>
+
+    <!--  -->
+    <br>
+    <table class="tablaExtensa">
+        <tr>
+            <td>alumnos 1</td>
+            <td>alumnos 2</td>
+            <td>alumnos 3</td>
+        </tr>
+        <tr>
+            <td>alumnos 1</td>
+            <td>alumnos 2</td>
+            <td>alumnos 3</td>
+        </tr>
+        <tr>
+            <td>alumnos 1</td>
+            <td>alumnos 2</td>
+            <td>alumnos 3</td>
+        </tr>
+        <tr>
+            <td>alumnos 1</td>
+            <td>alumnos 2</td>
+            <td>alumnos 3</td>
+        </tr>
+        <tr>
+            <td>alumnos 1</td>
+            <td>alumnos 2</td>
+            <td>alumnos 3</td>
+        </tr>
+    </table>
+
+    <table class="tablaReducida">
+        <tr>
+            <td>alumnos 1</td>
+            <td>alumnos 2</td>
+            <td>alumnos 3</td>
+        </tr>
+        <tr>
+            <td>alumnos 1</td>
+            <td>alumnos 2</td>
+            <td>alumnos 3</td>
+        </tr>
+        <tr>
+            <td>alumnos 1</td>
+            <td>alumnos 2</td>
+            <td>alumnos 3</td>
+        </tr>
+        <tr>
+            <td>alumnos 1</td>
+            <td>alumnos 2</td>
+            <td>alumnos 3</td>
+        </tr>
+        <tr>
+            <td>alumnos 1</td>
+            <td>alumnos 2</td>
+            <td>alumnos 3</td>
+        </tr>
+    </table>
+</body>
+</html>
