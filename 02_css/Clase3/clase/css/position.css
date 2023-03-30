@@ -1,0 +1,14 @@
+.caja {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+#pos {
+    /* position: relative; */
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: blue;
+}

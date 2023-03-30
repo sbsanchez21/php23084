@@ -1,0 +1,8 @@
+.menu {
+    position: sticky;
+    top: 50px;
+    background-color: yellow;
+    padding: 1rem;
+    margin: 1rem;
+
+}

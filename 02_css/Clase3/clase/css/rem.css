@@ -1,0 +1,21 @@
+html {
+    font-size: 32px;
+}
+
+.texto {
+    font-size: 1rem;  /* 1rem 16 px*/
+    background-color: lightblue;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+p {
+    color: red;
+}
+
+#anuncio {
+    background-color: yellow;    
+    width: 200px;
+    height: 200px;
+    text-align: right;
+}
