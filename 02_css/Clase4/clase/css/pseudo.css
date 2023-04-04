@@ -1,0 +1,9 @@
+.texto {
+    background-color: lightcoral;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.texto:hover {
+    font-size: 1.5rem;
+}

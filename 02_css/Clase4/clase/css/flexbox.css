@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+}
+
+.flex-container {
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+    /* flex-wrap: wrap-reverse; */
+    flex-flow: row  wrap-reverse;
+    justify-content: space-around;
+    align-items: flex-end;
+
+    background-color: aqua;
+    height: 200px;
+}
+
+.flex-container > div {
+    background-color: lightcoral;
+    padding: 1rem;
+    margin: .5rem;
+}
