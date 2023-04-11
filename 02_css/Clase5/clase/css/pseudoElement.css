@@ -1,0 +1,17 @@
+.texto::first-line {
+    background-color: red;
+}
+
+.texto::selection {
+    background-color: yellow;
+}
+
+.cuento::first-letter {
+    font-size: 5rem;
+}
+
+input::placeholder {
+    text-align: center;
+    text-shadow: 0ch;
+    color: aqua;
+}

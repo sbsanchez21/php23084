@@ -1,0 +1,47 @@
+input[type="button"] {
+    background-color: black;
+    color: white;
+    padding: .4rem .9rem;
+    border: 0;
+    border-radius: 5px;
+    margin: 1rem;
+}
+
+input[type="button"]:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+input[type="search"] {
+    border: 1px solid gray;
+    border-radius: 50px;
+    width: 100px;
+    height: 30px;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+input[type="search"]:focus {
+    width: 300px;
+}
+
+ul {
+    list-style: none;
+    background-color: rgb(251, 249, 249);
+    text-align: center;
+    width: 150px;
+}
+
+li:nth-child(2n+1) {
+    background-color: lightgray;
+}
+
+input:required {
+    background-color: lightcoral;
+}
+
+
+input:read-only {
+    background-color: lightgray;
+}
+

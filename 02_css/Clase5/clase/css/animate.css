@@ -1,0 +1,18 @@
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.btnAnimado {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    border: 0;
+    border-radius: 5px;
+}
+
+.btnAnimado:hover {
+    animation: flash; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s; /* don't forget to set a duration! */
+    cursor: pointer;
+}
