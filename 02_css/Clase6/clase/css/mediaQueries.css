@@ -1,0 +1,32 @@
+@media only screen and (max-width: 1500px) {
+	body {
+	  background-color: yellow;
+	  font-size: 1rem;
+	}
+}
+
+
+@media only screen and (max-width: 1000px) {
+	body {
+	  background-color: lightgreen;
+	  font-size: 1.5rem;
+	}
+}
+
+@media only screen and (max-width: 500px) and (max-height: 550px) {
+	body {
+	  background-color: lightblue;
+	  font-size: 1rem;
+	}
+
+	.menu {
+		display: none;
+	}
+}
+
+@media only screen and (max-device-width: 500px) and (max-device-height: 300px) {
+	body {
+	  background-color: red;
+	  font-size: 10px;
+	}
+}
