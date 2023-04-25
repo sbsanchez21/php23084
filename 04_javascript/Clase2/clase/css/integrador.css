@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.oradores {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.orador {
+    width: 20%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: .5rem;
+
+}
+
+.orador img {
+    width: 100%;
+}
+
+.descripcion {
+    margin: 1rem;
+}
+
+.botones {
+    margin-bottom: .7rem;
+}
+
+.btnAmarillo {
+    background-color: rgb(254, 193,7);
+    border: 0;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: .3rem .5rem;
+    font-size: .7rem;
+
+}
+
+.btnAmarillo > a {
+    color: black;
+}
+
+.btnCeleste {
+    background-color: rgb(23, 162,183);
+    border: 0;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: .3rem .5rem;
+    font-size: .7rem;    
+
+}
+
+.btnCeleste > a {
+    color: white;
+}
+
+.orador .titulo {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: rgb(74, 74, 74);
+}
+
+.orador .texto {
+    text-align: justify;
+    line-height: 1.2rem;
+    font-size: .8rem;
+    color: rgb(74, 74, 74);
+}
