@@ -1,0 +1,8 @@
+.fondo {
+    background-image: url("../images/hawaii.jpg");
+    height: 200px;
+}
+
+.textRojoIntenso {
+    color: rgba(154, 21, 21, 0.735);
+}
